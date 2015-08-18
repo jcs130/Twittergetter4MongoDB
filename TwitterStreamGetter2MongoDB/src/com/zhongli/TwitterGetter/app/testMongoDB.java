@@ -16,6 +16,7 @@ import com.mongodb.client.model.ReplaceOneModel;
 import com.mongodb.client.model.UpdateOneModel;
 import com.mongodb.client.result.DeleteResult;
 import com.mongodb.client.result.UpdateResult;
+import com.mongodb.util.JSON;
 
 import static com.mongodb.client.model.Filters.*;
 
@@ -25,9 +26,9 @@ import static com.mongodb.client.model.Filters.*;
  * @author John
  *
  */
-public class testmain {
+public class testMongoDB {
 	public static void main(String[] args) {
-		testmain tm = new testmain();
+		testMongoDB tm = new testMongoDB();
 		tm.test();
 	}
 
@@ -44,7 +45,7 @@ public class testmain {
 
 		/********************** 数据插入 ****************************/
 		// // 创建新文档
-		// Document doc = new Document("name", "MongoDB")
+//		 Document doc = new Document("name", "MongoDB")
 		// .append("type", "database").append("count", 1)
 		// .append("info", new Document("x", 203).append("y", 102));
 		// // 将文档插入文档集合

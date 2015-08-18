@@ -1,4 +1,4 @@
-package com.zhongli.TwitterGetter.dao;
+package com.zhongli.TwitterGetter.dao.impl;
 
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -9,8 +9,8 @@ import java.util.logging.Logger;
 
 import javax.sql.DataSource;
 
-public class DBHelper implements DataSource{
-	private static final String url = "jdbc:mysql://localhost:3306/twitterproject";
+public class InfoDBHelper implements DataSource{
+	private static final String url = "jdbc:mysql://localhost:3306/happycityproject";
 //	private static final String url = "jdbc:mysql://mydatatest.cqkitdz1e3ma.us-west-2.rds.amazonaws.com:3306/happycityproject";
 	private static final String name = "com.mysql.jdbc.Driver";
 	private static final String user = "root";
